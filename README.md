@@ -21,6 +21,11 @@ A branch `feature/conflict-test` alterou o mesmo trecho do arquivo `index.html` 
 ## Resultado final
 A página principal está em HTML válido, com a versão final e a documentação no README.
 
+## Observações e próximas ações
+- Substituí os placeholders COMMIT_* pelos SHAs reais dos commits relevantes e completei a descrição truncada.
+- O arquivo `index.txt` foi classificado como histórico — seu conteúdo foi movido para `history/index.txt` e o arquivo original foi marcado no topo com uma nota explicativa.
+- Recomendo revisar / mesclar a branch final (`feature/index-html`) para `main` se desejar que a versão consolidada esteja definitivamente na branch principal. Depois de mescladas, as branches de feature podem ser removidas para limpeza do repositório.
+
 ## Acesso
 Repositório: https://github.com/BlakeKonrad8/senai-atividade-versionamento
 Arquivo principal (index): https://github.com/BlakeKonrad8/senai-atividade-versionamento/blob/main/index.html
