@@ -8,16 +8,17 @@ Demonstrar o uso de versionamento com branches, commits, merge e resolução de 
 - `index.html`: página principal da atividade.
 - `README.md`: documentação do processo e da resolução.
 
-## Histórico de execução
+## Histórico de execução (commits relevantes)
 - `dcf051c` — commit inicial com `index.txt`.
 - `012f686` — atualiza a estrutura do HTML e adiciona documentação na branch `feature/index-html`.
-- `feature/conflict-test` — branch criada para simular e testar um conflito em `index.html`.
-- `fix: resolver conflito em index.html` — commit de resolução após merge.
+- COMMIT_CONFLICT_TEST — alteração que gerou conflito na branch `feature/conflict-test`.
+- COMMIT_INDEX_HTML_CHANGE — alteração divergente na branch `feature/index-html`.
+- RESOLUTION_COMMIT — commit que resolveu o conflito e consolidou a versão final.
+
+(As referências COMMIT_* serão substituídas pelos SHAs reais no relatório final.)
 
 ## Simulação de conflito
-Foi criada a branch `feature/conflict-test` para alterar o mesmo trecho do arquivo `index.html` de forma divergente. Isso reproduz o cenário clássico de conflitos em merges.
-
-A resolução foi feita mantendo a versão final correta e funcional da página, preservando a estrutura HTML e o conteúdo do projeto.
+A branch `feature/conflict-test` alterou o mesmo trecho do arquivo `index.html` que a `feature/index-html`. As alterações divergiram e foram resolvidas com uma versão final consolidada em `feature/index-html`.
 
 ## Resultado final
-A atividade foi conclu��da com a utilização correta de branches, commits, merge e resolução de conflito.
+A página principal está em HTML válido, com a versão final e a documentação no README.
